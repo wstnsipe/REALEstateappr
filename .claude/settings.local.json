@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Claude_Preview__preview_start",
+      "Bash(npm run:*)",
+      "Bash(find /Users/weston/Vibe_Coding/appraisalservices -not -path */node_modules/* -type f)",
+      "Bash(find /Users/weston/Vibe_Coding/appraisalservices -maxdepth 1 -name .env* -type f)",
+      "Bash(grep -l \"export const metadata\" /Users/weston/Vibe_Coding/appraisalservices/app/*/page.tsx /Users/weston/Vibe_Coding/appraisalservices/app/page.tsx)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}
